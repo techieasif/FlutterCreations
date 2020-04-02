@@ -3,11 +3,11 @@ This Repository Contains Examples created using flutter.
 
 <table>
   <tr>
-    <td>Cat Animation</td>
+    <td><h2>Cat Animation</h2></td>
   </tr>
   <tr>
     <td>Android</td>
-     <td>IOS</td>
+     <td>IOS (slow due to recorder)</td>
     </td>
   <tr>
   <td><img src="cat_animation-android.gif" width=270 height=480></td>
