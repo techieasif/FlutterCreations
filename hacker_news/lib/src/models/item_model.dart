@@ -33,7 +33,7 @@ class ItemModel {
   factory ItemModel.fromJson(Map<String, dynamic> json) {
     return ItemModel(
         id: json['id'],
-        by: json['by'],
+        by: json['by'] ?? '',
         dead: json['dead'] ?? false,
         deleted: json['deleted'] ?? false,
         descendants: json['descendants'] ?? 0,

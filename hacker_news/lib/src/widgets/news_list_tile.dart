@@ -40,7 +40,7 @@ class NewsListTile extends StatelessWidget {
           subtitle: Text('${item.score} votes'),
           trailing: Column(
             children: <Widget>[
-              Icon(Icons.comment),
+              Icon(Icons.comment, color: Colors.teal.shade300,),
               SizedBox(
                 height: 4,
               ),

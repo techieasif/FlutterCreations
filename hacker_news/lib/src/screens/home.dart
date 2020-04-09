@@ -9,7 +9,7 @@ class Home extends StatelessWidget {
 
   Widget build(context) {
     final storyBloc = StoriesProvider.of(context);
-    storyBloc.fetchTopIds();
+
     return Scaffold(
         appBar: AppBar(
           elevation: 0.0,
