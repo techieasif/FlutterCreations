@@ -5,7 +5,7 @@ class LoadingTile extends StatelessWidget {
     return Column(
       children: <Widget>[
         ListTile(
-          title: buildContainer(),
+          title: buildContainer(shade: 900),
           subtitle: buildContainer(shade: 800),
         ),
         Divider(height: 8,),
@@ -13,7 +13,7 @@ class LoadingTile extends StatelessWidget {
     );
   }
 
-  Widget buildContainer({int shade = 900}) {
+  Widget buildContainer({int shade}) {
     return Container(
       margin: EdgeInsets.only(top:8.0, bottom:8.0),
       color: Colors.grey[shade],
