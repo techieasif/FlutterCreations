@@ -12,7 +12,7 @@ class NewsDetail extends StatelessWidget {
     final commentsBloc = CommentsProvider.of(context);
     return Scaffold(
       appBar: AppBar(
-        title: Text("Details"),
+        title: Text("More"),
       ),
       body: buildBody(commentsBloc),
     );

@@ -11,12 +11,22 @@ class Home extends StatelessWidget {
     final storyBloc = StoriesProvider.of(context);
 
     return Scaffold(
-        appBar: AppBar(
-          elevation: 0.0,
-          centerTitle: true,
-          title: Text(title),
-        ),
-        body: buildList(storyBloc));
+      appBar: AppBar(
+        backgroundColor: Colors.transparent,
+        elevation: 0.0,
+        centerTitle: true,
+        title: Text(title),
+      ),
+      body: Container(
+        padding: EdgeInsets.only(top:20),
+        decoration: BoxDecoration(
+          color: Colors.grey.shade900,
+         borderRadius: BorderRadius.only(topLeft: Radius.circular(40))),
+        child: buildList(storyBloc),
+      ),
+      
+      
+    );
   }
 
   buildList(StoriesBloc bloc) {

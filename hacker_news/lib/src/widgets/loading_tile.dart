@@ -5,8 +5,8 @@ class LoadingTile extends StatelessWidget {
     return Column(
       children: <Widget>[
         ListTile(
-          title: buildContainer(shade: 900),
-          subtitle: buildContainer(shade: 800),
+          title: buildContainer(shade: 800),
+          subtitle: buildContainer(shade: 700),
         ),
         Divider(height: 8,),
       ],
