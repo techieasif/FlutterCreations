@@ -6,14 +6,14 @@ class LoadingTile extends StatelessWidget {
       children: <Widget>[
         ListTile(
           title: buildContainer(),
-          subtitle: buildContainer(shade: 200),
+          subtitle: buildContainer(shade: 800),
         ),
         Divider(height: 8,),
       ],
     );
   }
 
-  Widget buildContainer({int shade = 300}) {
+  Widget buildContainer({int shade = 900}) {
     return Container(
       margin: EdgeInsets.only(top:8.0, bottom:8.0),
       color: Colors.grey[shade],

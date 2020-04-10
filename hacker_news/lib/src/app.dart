@@ -9,6 +9,8 @@ class App extends StatelessWidget {
     return CommentsProvider(
       child: StoriesProvider(
         child: MaterialApp(
+          themeMode: ThemeMode.dark,
+          darkTheme: ThemeData.dark(),
           debugShowCheckedModeBanner: false,
           theme: ThemeData(primarySwatch: Colors.teal),
           onGenerateRoute: routes,
