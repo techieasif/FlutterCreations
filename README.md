@@ -32,7 +32,7 @@ This Repository Contains Examples created using flutter.
      <td>IOS</td>
     </td>
   <tr>
-  <td><img src="my-new-android.gif" width=240 height=480></td>
+  <td><img src="android-counter.gif" width=240 height=480></td>
     <td><img src="counter-ios.png" width=240 height=480></td>
   </tr>
  </table>
