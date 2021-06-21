@@ -8,8 +8,11 @@ This Repository Contains Examples created using flutter.
   <tr>
      <td>IOS (Rendering 8600 lines of Custom Painter)</td>
     </td>
+     <td>WEB (Rendering 8600 lines of Custom Painter)</td>
+    </td>
   <tr>
     <td><img src="luca.gif" width=240 height=480></td>
+      <td><img src="web_luca.gif" width=240 height=480></td>
   </tr>
   <tr>
     <td><h2>MyNews</h2></td>
