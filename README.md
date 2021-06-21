@@ -12,7 +12,7 @@ This Repository Contains Examples created using flutter.
     </td>
   <tr>
     <td><img src="luca.gif" width=240 height=480></td>
-      <td><img src="web_luca.gif" width=240 height=480></td>
+      <td><img src="web_luca.gif" width=480 height=240></td>
   </tr>
   <tr>
     <td><h2>MyNews</h2></td>
