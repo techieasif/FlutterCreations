@@ -6,7 +6,7 @@ This Repository Contains Examples created using flutter.
     <td><h2>Luca from Pixar</h2></td>
   </tr>
   <tr>
-     <td>IOS (slow due to recorder)</td>
+     <td>IOS (Rendering 8600 lines of Custom Painter)</td>
     </td>
   <tr>
     <td><img src="luca.gif" width=240 height=480></td>
