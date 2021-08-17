@@ -18,12 +18,12 @@ class CounterBloc extends Bloc<CounterEvent, CounterState> {
     CounterEvent event,
   ) async* {
     if(event is Increment){
-      final counterValue =  incrementRespository.incrementer();
+      final counterValue =  incrementRespository.theInrementer();
       yield CounterIncremented(counterValue);
     }else if( event is CounterInitial){
       yield CounterInitial();
     }else if(event is Decrement){
-      final counterVal = incrementRespository.decrementer();
+      final counterVal = incrementRespository.theDecrementer();
       yield CounterDecremented(counterVal);
     }
   }

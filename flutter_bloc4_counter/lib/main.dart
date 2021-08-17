@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       ),
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'Counter',
+        title: 'Counter APP',
         theme: ThemeData(
             primarySwatch: Colors.green,
             primaryColor: Colors.green,
