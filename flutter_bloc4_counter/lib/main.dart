@@ -15,11 +15,7 @@ class BlocCounterAPP extends StatelessWidget {
       ),
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-<<<<<<< HEAD
-        title: 'Counter App',
-=======
         title: 'Counter APP',
->>>>>>> j102
         theme: ThemeData(
             primarySwatch: Colors.red,
             primaryColor: Colors.red,
