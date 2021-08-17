@@ -8,7 +8,7 @@ class IncrementRespo implements IncrementAbs{
   @override
  int decrementVal()  {
    //decrementing counter values.
-    return counter--;
+    return (counter = counter - 1);
 
     //TODO: Add DB for real app here. or other sources
   }
@@ -16,7 +16,7 @@ class IncrementRespo implements IncrementAbs{
   @override
  int incrementVal()  {
    //incrementing counter values.
-    return counter++;
+    return (counter = counter+1);
     //TODO: Add DB for real app here. or other sources
   }
 
