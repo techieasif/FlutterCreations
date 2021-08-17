@@ -4,9 +4,9 @@ import 'package:vloc/src/Blocs/bloc/counter_bloc.dart';
 import 'package:vloc/src/Pages/HomePage.dart';
 import 'package:vloc/src/Resources/incrementRepository.dart';
 
-void main() => runApp(MyApp());
+void main() => runApp(BlocCounterAPP());
 
-class MyApp extends StatelessWidget {
+class BlocCounterAPP extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return BlocProvider(
@@ -15,10 +15,10 @@ class MyApp extends StatelessWidget {
       ),
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'Counter',
+        title: 'Counter App',
         theme: ThemeData(
-            primarySwatch: Colors.green,
-            primaryColor: Colors.green,
+            primarySwatch: Colors.red,
+            primaryColor: Colors.red,
             accentColor: Colors.greenAccent,
             backgroundColor: Colors.blueGrey.shade50,
             fontFamily: "NunitoSans",
@@ -27,15 +27,15 @@ class MyApp extends StatelessWidget {
                 elevation: 0.0,
                 color: Colors.transparent,
                 textTheme: TextTheme(
-                  title: TextStyle(color: Colors.black),
+                  headline6: TextStyle(color: Colors.black),
                 )),
             cardTheme: CardTheme(
               elevation: 0.0,
             ),
             errorColor: Colors.red.shade800,
             textTheme: TextTheme(
-              body1: TextStyle(fontSize: 12),
-              body2: TextStyle(fontSize: 10),
+              bodyText2: TextStyle(fontSize: 12),
+              bodyText1: TextStyle(fontSize: 10),
             )),
         home: MyHomePage(),
       ),
