@@ -17,6 +17,7 @@ class CounterBloc extends Bloc<CounterEvent, CounterState> {
   Stream<CounterState> mapEventToState(
     CounterEvent event,
   ) async* {
+    print("The function mapEvent 2 state is added");
     if(event is Increment){
       final counterValue =  incrementRespository.incrementVal();
       yield CounterIncremented(counterValue);
