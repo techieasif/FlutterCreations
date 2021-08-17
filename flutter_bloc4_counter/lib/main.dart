@@ -11,11 +11,15 @@ class BlocCounterAPP extends StatelessWidget {
   Widget build(BuildContext context) {
     return BlocProvider(
       create: (BuildContext context) => CounterBloc(
-        IncrementRespository(),
+        IncrementRespo(),
       ),
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
+<<<<<<< HEAD
         title: 'Counter App',
+=======
+        title: 'Counter APP',
+>>>>>>> j102
         theme: ThemeData(
             primarySwatch: Colors.red,
             primaryColor: Colors.red,
