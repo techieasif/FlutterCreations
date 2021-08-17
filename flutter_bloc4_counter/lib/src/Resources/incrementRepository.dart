@@ -1,19 +1,19 @@
 abstract class IncrementAbs{
-int incrementer();
-int decrementer();
+int theInrementer();
+int theDecrementer();
 }
 
 class IncrementRespository implements IncrementAbs{
   int counter = 0;
   @override
- int decrementer()  {
+ int theDecrementer()  {
     return counter--;
 
     //TODO: Add DB for real app here. or other sources
   }
 
   @override
- int incrementer()  {
+ int theInrementer()  {
     return counter++;
     //TODO: Add DB for real app here. or other sources
   }
