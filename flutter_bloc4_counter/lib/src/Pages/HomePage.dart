@@ -58,7 +58,7 @@ class MyHomePage extends StatelessWidget {
               counter: state.counter,
             );
           }else{
-            return SizedBox.shrink();
+            return Container();
           }
         },
       ),
