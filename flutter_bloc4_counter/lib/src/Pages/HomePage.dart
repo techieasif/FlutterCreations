@@ -22,7 +22,7 @@ class MyHomePage extends StatelessWidget {
                 color: Colors.green,
               ),
               onPressed: () {
-                print("thumbs_up");
+                print("INCREMENTED");
                 bloc.add(Increment());
               },
             ),
@@ -36,7 +36,7 @@ class MyHomePage extends StatelessWidget {
             child: IconButton(
               icon: Icon(Icons.remove, color: Colors.red),
               onPressed: () {
-                print("thumbs_up_down");
+                print("DECREMENTED");
                 bloc.add(Decrement());
               },
             ),
@@ -57,6 +57,8 @@ class MyHomePage extends StatelessWidget {
             return ShowCounter(
               counter: state.counter,
             );
+          }else{
+            return Container();
           }
         },
       ),
